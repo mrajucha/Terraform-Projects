@@ -2,10 +2,11 @@
 # datasource block
 
 resource "local_file" "pets" {
-  filename        = "pets.txt"
+  filename        =   var.filename
   #content         = "my favourite pet is Dog!"
   content = data.local_file.pet.content
   file_permission = "0700"
+  count = 2             # specify the resource numbers to be created 
   lifecycle {
    # prevent_destroy = true   
    create_before_destroy = true                  # lifecycle rule prevent destroy of resource
@@ -26,4 +27,12 @@ resource "local_file" "pets" {
 data "local_file" "pet" {                   # Data block for datasource to only read resources not controlled by terraform
   filename = "dogs.txt"
   
+}
+
+variable "filename" {
+  default = [
+    "/pets.txt",
+    "/dogs.txt"
+  ]
+  type = list(string)
 }
