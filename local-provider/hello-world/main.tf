@@ -29,6 +29,6 @@ output "passwords-op" {
   value = random_password.passwords.result
   sensitive = true
 }
-variable "content" {
-  default = "Hello! this is my first terraform project. The password length is ${random_password.passwords.length}" 
-}
+#variable "content" {
+ # default = "Hello! this is my first terraform project. The password length is ${random_password.passwords.length}" 
+#}

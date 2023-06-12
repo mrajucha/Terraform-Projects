@@ -1,0 +1,15 @@
+2023-06-12T12:40:31.308+0530 [INFO]  Terraform version: 1.2.7
+2023-06-12T12:40:31.310+0530 [INFO]  Go runtime version: go1.18.1
+2023-06-12T12:40:31.310+0530 [INFO]  CLI args: []string{"C:\\Users\\MRAJUCHA\\OneDrive - Capgemini\\Documents\\terraform.exe", "plan"}
+2023-06-12T12:40:31.328+0530 [INFO]  CLI command args: []string{"plan"}
+2023-06-12T12:40:31.606+0530 [INFO]  backend/local: starting Plan operation
+2023-06-12T12:40:34.340+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-12T12:40:34.777+0530 [INFO]  provider.terraform-provider-local_v2.4.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-12T12:40:34.774+0530
+2023-06-12T12:40:35.376+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-12T12:40:35.927+0530 [INFO]  provider.terraform-provider-random_v3.5.1_x5.exe: configuring server automatic mTLS: timestamp=2023-06-12T12:40:35.923+0530
+2023-06-12T12:40:36.570+0530 [INFO]  ReferenceTransformer: reference not found: "var.content"
+2023-06-12T12:40:36.572+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-12T12:40:37.203+0530 [INFO]  provider.terraform-provider-local_v2.4.0_x5.exe: configuring server automatic mTLS: timestamp=2023-06-12T12:40:37.198+0530
+2023-06-12T12:40:37.847+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-12T12:40:38.413+0530 [INFO]  provider.terraform-provider-random_v3.5.1_x5.exe: configuring server automatic mTLS: timestamp=2023-06-12T12:40:38.410+0530
+2023-06-12T12:40:39.136+0530 [ERROR] vertex "local_file.hello-world" error: Reference to undeclared input variable
