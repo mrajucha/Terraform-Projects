@@ -36,6 +36,7 @@ Note: the directory should have .tf file
 User --> Jenkins build --> github(terraform code) --> AWS
                            |
                   Remote backedn(S3) state file --> dynamodb(state lock)
+![image](https://github.com/mrajucha/Terraform-Projects/assets/103336800/93978136-094d-4f5e-801f-02daed4301c2)                  
 
 # lifecycle rules --> 
 - prevent_destroy : to prevent destroy  first
@@ -54,5 +55,5 @@ User --> Jenkins build --> github(terraform code) --> AWS
 
 
 
-![image](https://github.com/mrajucha/Terraform-Projects/assets/103336800/93978136-094d-4f5e-801f-02daed4301c2)
+
 
